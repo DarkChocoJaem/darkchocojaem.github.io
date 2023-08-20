@@ -7,7 +7,7 @@ tags:
   - Spring
 ---
 
-> 해당 글은 기존 Velog로 부터 새롭게 Github Blog로 이전하면서 복사 되었습니다.
+> 해당 글은 기존 Velog로부터 새롭게 Github Blog로 이전되었습니다.
 
 # AOP : Aspect Oriented Programming
 
