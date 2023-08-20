@@ -20,7 +20,7 @@ title                    : "ChocoJaem.log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaem"
-description              : "An amazing website."
+description              : "Blog of Jaem"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,10 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "Jaem"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  avatar           : "/assets/images/choco_jaem.png"
+  bio              : "Flutter, Android, iOS 등 모바일 플랫폼에 관심이 많은 개발자입니다."
+  location         : "Republic of Korea"
+  email            : vanillajaem@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
