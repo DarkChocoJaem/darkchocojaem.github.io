@@ -15,8 +15,8 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "ChocoJaem.log"
+locale                   : "en-US"
+title                    : "MintChoco-Jaem.log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaem"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Jaem"
-  avatar           : "/assets/images/choco_jaem.png"
+  avatar           : "/assets/images/profile.png"
   bio              : "Flutter, Android, iOS 등 모바일 플랫폼에 관심이 많은 개발자입니다."
   location         : "Republic of Korea"
   email            : vanillajaem@gmail.com
@@ -116,18 +116,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/chocojaem"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: https://www.instagram.com/cinnamon_jaem/
 
 # Site Footer
 footer:
@@ -286,7 +280,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
+      share: false
       related: true
+      sidebar_main: true

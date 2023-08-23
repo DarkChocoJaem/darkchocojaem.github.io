@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
+  font-size: large;
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -126,6 +127,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }

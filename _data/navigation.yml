@@ -8,8 +8,8 @@ main:
   #  url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "All Posts"
-    url: /collection-archive/
+  - title: "Home"
+    url: /index.html/
   - title: "Category"
     url: /categories/
   - title: "Tag"

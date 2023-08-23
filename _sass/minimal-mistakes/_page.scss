@@ -73,7 +73,7 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    color: $primary-color;
     text-decoration: none;
   }
 
@@ -388,9 +388,9 @@ body {
   display: grid;
   grid-column-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
-  margin: 1.414em 0;
+  margin: 1.414em 0 8em;
   padding: 0;
-  font-size: 0.75em;
+  font-size: 0.8em;
   list-style: none;
 
   @include breakpoint($large) {
@@ -408,6 +408,8 @@ body {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid $border-color;
+    min-height: 40px;
+    align-items: center; /* 변경된 align-items 값 */
   }
 }
 

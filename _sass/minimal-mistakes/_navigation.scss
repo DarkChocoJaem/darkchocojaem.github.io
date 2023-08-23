@@ -497,6 +497,7 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  color: $primary-color;
 }
 
 /*
@@ -513,7 +514,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: $background-color;
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;
@@ -522,7 +523,7 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    @include yiq-contrasted($active-color);
+    @include yiq-contrasted($border-color);
   }
 }
 

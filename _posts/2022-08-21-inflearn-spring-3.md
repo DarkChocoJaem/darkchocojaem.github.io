@@ -1,10 +1,15 @@
 ---
-title: "스프링 입문(김영한) - Spring Bean과 Dependency(3)"
+title: "Inflern 스프링 입문(김영한) - Spring Bean과 Dependency(3)"
 categories:
-  - Java/Spring
+  - Inflern 스프링 입문(김영한)
 tags:
-  - Java
-  - Spring
+  - [Java, Spring]
+
+toc: true
+toc_sticky : true
+
+date : 2023-08-21
+last_modified_at : 2023-08-21
 ---
 
 > 해당 글은 기존 Velog로부터 새롭게 Github Blog로 이전되었습니다.

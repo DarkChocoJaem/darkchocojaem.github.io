@@ -1,15 +1,20 @@
 ---
-title: "스프링 입문(김영한) - Project 환경설정 & 스프링 웹 개발 기초(1)"
+title: "Inflern 스프링 입문(김영한) - Project 환경설정 & 스프링 웹 개발 기초(1)"
 categories:
-  - Java/Spring
+  - Inflern 스프링 입문(김영한)
 tags:
-  - Java
-  - Spring
+  - [Java, Spring]
+
+toc: true
+toc_sticky : true
+
+date : 2023-08-21
+last_modified_at : 2023-08-21
 ---
 
 > 해당 글은 기존 Velog로부터 새롭게 Github Blog로 이전되었습니다.
 
-Flutter를 사용하면서 RESTful API로 통신하여 데이터를 가져오는 일이 많았습니다. 
+Flutter를 사용하다 보니 API로 통신하여 데이터를 가져오는 일이 많았습니다. 
 
 그러다가 문득 데이터가 구체적으로 어떤 방식으로 전송되고 생성되는지 궁금해져서 학교의 백엔드 스터디에 들어가 인프런(Inflearn)에서 한국의 백엔드로 가장 많이 자리잡은 Java/Spring 생태계를 맛 보기로 결정했습니다.
 
