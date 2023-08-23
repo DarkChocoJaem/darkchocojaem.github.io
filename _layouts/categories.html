@@ -9,7 +9,7 @@ layout: archive
   {% endif %}
 {% endfor %}
 
-<h3 class="archive__title">{{ site.data.ui-text[site.locale].categories_label  | default: "Categories:" }}</h3>
+<h3 class="archive__title">{{ site.data.ui-text[site.locale].categories_label  | default: "Category" }}</h3>
 
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}

@@ -177,7 +177,6 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
 
   a {
     display: block;
@@ -197,6 +196,7 @@
     }
 
     &.site-title {
+      color: $primary-color;
       margin-left: 0;
     }
   }
