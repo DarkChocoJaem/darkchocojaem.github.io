@@ -106,7 +106,7 @@ const int data1 = 1;
 
 class User {
   //static const int data2; Error
-  tatic const int data2 = 2;
+  static const int data2 = 2;
     
   void some(){
     //const int data3; Error
@@ -390,7 +390,7 @@ class User {
       //같은 이름이 존재할 경우 해당 객체 반환
       return _instances[name]!;
     } else {
-     //아닐 경우 새로운 객체 생성 및 저장소에 추가
+      //아닐 경우 새로운 객체 생성 및 저장소에 추가
       final newUser = User._(name, id);
       _instances[name] = newUser;
       return newUser;
