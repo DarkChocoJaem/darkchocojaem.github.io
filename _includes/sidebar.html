@@ -22,13 +22,19 @@
   <nav class="nav__list">
     <input id="ac-toc" name="accordion-toc" type="checkbox" />
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-    <ul class="nav__items" id="category_tag_menu">
+    <ul class="nav__items" id="category_tag_menu" s>
       <li>
         <span class="nav__sub-title">Flutter</span>
         <ul>
           {% for category in site.categories %}
+          {% if category[0] == "Riverpod" %}
+          <li style=" margin-bottom: 10px;"><a href="/categories/riverpod">Riverpod | {{category[1].size}}</a></li>
+          {% endif %}
+          {% endfor %}
+
+          {% for category in site.categories %}
           {% if category[0] == "Do it 깡샘의 플러터 & 다트 프로그래밍" %}
-          <li><a href="/categories/do-it-flutter">Do it 깡샘의 플러터 & 다트 프로그래밍 | {{category[1].size}}</a></li>
+          <li style=" margin-bottom: 10px"><a href="/categories/do-it-flutter">Do it 깡샘의 플러터 & 다트 프로그래밍 | {{category[1].size}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -38,7 +44,7 @@
         <ul>
           {% for category in site.categories %}
           {% if category[0] == "Inflern 스프링 입문(김영한)" %}
-          <li><a href="/categories/inflern-spring">Inflern 스프링 입문(김영한) | {{category[1].size}}</a></li>
+          <li style=" margin-bottom: 10px"><a href="/categories/inflern-spring">Inflern 스프링 입문(김영한) | {{category[1].size}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
