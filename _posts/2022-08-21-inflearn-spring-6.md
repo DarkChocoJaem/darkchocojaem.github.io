@@ -1,9 +1,9 @@
 ---
 title: "Inflern 스프링 입문(김영한) - AOP : Aspect Oriented Programming(6)"
 categories:
-  - Inflern 스프링 입문(김영한)
+  - Java/Spring
 tags:
-  - [Java, Spring]
+  - Inflern 스프링 입문(김영한)
 
 toc: true
 toc_sticky : true

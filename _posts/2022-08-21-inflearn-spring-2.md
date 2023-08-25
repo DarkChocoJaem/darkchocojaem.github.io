@@ -1,9 +1,9 @@
 ---
 title: "Inflern 스프링 입문(김영한) - 회원 관리 예제 : Backend 개발(2)"
 categories:
-  - Inflern 스프링 입문(김영한)
+  - Java/Spring
 tags:
-  - [Java, Spring]
+  - Inflern 스프링 입문(김영한)
 
 toc: true
 toc_sticky : true

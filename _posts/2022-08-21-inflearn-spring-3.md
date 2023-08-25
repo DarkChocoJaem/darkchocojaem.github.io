@@ -1,9 +1,9 @@
 ---
 title: "Inflern 스프링 입문(김영한) - Spring Bean과 Dependency(3)"
 categories:
-  - Inflern 스프링 입문(김영한)
+  - Java/Spring
 tags:
-  - [Java, Spring]
+  - Inflern 스프링 입문(김영한)
 
 toc: true
 toc_sticky : true

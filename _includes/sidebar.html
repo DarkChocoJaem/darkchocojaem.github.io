@@ -24,17 +24,18 @@
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
     <ul class="nav__items" id="category_tag_menu" s>
       <li>
-        <span class="nav__sub-title">Flutter</span>
+        <span class="nav__sub-title">Dart/Flutter</span>
         <ul>
-          {% for category in site.categories %}
-          {% if category[0] == "Riverpod" %}
-          <li style=" margin-bottom: 10px;"><a href="/categories/riverpod">Riverpod | {{category[1].size}}</a></li>
+          {% for tag in site.tags %}
+          {% if tag[0] == "Riverpod" %}
+          <li style=" margin-bottom: 10px;"><a href="/tags/riverpod">Riverpod | {{tag[1].size}}</a></li>
           {% endif %}
           {% endfor %}
 
-          {% for category in site.categories %}
-          {% if category[0] == "Do it 깡샘의 플러터 & 다트 프로그래밍" %}
-          <li style=" margin-bottom: 10px"><a href="/categories/do-it-flutter">Do it 깡샘의 플러터 & 다트 프로그래밍 | {{category[1].size}}</a></li>
+
+          {% for tag in site.tags %}
+          {% if tag[0] contains "Do it 깡샘의 플러터 & 다트 프로그래밍" %}
+          <li style=" margin-bottom: 10px"><a href="/tags/do-it-flutter">Do it 깡샘의 플러터 & 다트 프로그래밍 | {{tag[1].size}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -42,9 +43,9 @@
       <li>
         <span class="nav__sub-title">Java/Spring</span>
         <ul>
-          {% for category in site.categories %}
-          {% if category[0] == "Inflern 스프링 입문(김영한)" %}
-          <li style=" margin-bottom: 10px"><a href="/categories/inflern-spring">Inflern 스프링 입문(김영한) | {{category[1].size}}</a></li>
+          {% for tag in site.tags %}
+          {% if tag[0] contains "Inflern 스프링 입문(김영한)" %}
+          <li style=" margin-bottom: 10px"><a href="/tags/inflern-spring">Inflern 스프링 입문(김영한) | {{tag[1].size}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>

@@ -1,9 +1,9 @@
 ---
 title: "Inflern 스프링 입문(김영한) - Project 환경설정 & 스프링 웹 개발 기초(1)"
 categories:
-  - Inflern 스프링 입문(김영한)
+  - Java/Spring
 tags:
-  - [Java, Spring]
+  - Inflern 스프링 입문(김영한)
 
 toc: true
 toc_sticky : true

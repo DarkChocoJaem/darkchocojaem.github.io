@@ -1,9 +1,9 @@
 ---
 title: "상태관리 패키지 Riverpod 공식문서 정리(3)"
 categories:
-  - Riverpod
+  - Dart/Flutter
 tags:
-  - [Dart, Flutter]
+  - Riverpod
 
 toc: true
 toc_sticky : true

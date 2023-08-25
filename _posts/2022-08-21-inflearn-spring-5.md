@@ -1,9 +1,9 @@
 ---
 title: "Inflern 스프링 입문(김영한) - Spring의 DB 접근 기술(5)"
 categories:
-  - Inflern 스프링 입문(김영한)
+  - Java/Spring
 tags:
-  - [Java, Spring]
+  - Inflern 스프링 입문(김영한)
 
 toc: true
 toc_sticky : true

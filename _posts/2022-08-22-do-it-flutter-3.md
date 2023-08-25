@@ -1,9 +1,9 @@
 ---
 title: "Do it 깡샘의 플러터 & 다트 프로그래밍 - 10, 12, 13, 14, 15장 내용 정리(3)"
 categories:
-  - Do it 깡샘의 플러터 & 다트 프로그래밍
+  - Dart/Flutter
 tags:
-  - [Dart, Flutter]
+  - Do it 깡샘의 플러터 & 다트 프로그래밍
 
 toc: true
 toc_sticky : true
