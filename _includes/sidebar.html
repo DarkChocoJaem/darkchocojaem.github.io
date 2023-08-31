@@ -32,10 +32,15 @@
           {% endif %}
           {% endfor %}
 
-
           {% for tag in site.tags %}
           {% if tag[0] contains "Do it 깡샘의 플러터 & 다트 프로그래밍" %}
           <li style=" margin-bottom: 10px"><a href="/tags/do-it-flutter">Do it 깡샘의 플러터 & 다트 프로그래밍 | {{tag[1].size}}</a></li>
+          {% endif %}
+          {% endfor %}
+
+          {% for tag in site.tags %}
+          {% if tag[0] contains "Flutter Research" %}
+          <li style=" margin-bottom: 10px"><a href="/tags/flutter-research">Flutter Research | {{tag[1].size}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
