@@ -207,7 +207,7 @@ ref는 주로 다음과 같은 경우에 사용됩니다.
 - provider에 대한 리스너를 추가하여, 해당 provider가 변경될 때 새로운 페이지로 이동하거나 모달을 표시하는 등의 작업을 실행하는 경우(ref.listen을 사용).
 - 클릭과 같은 이벤트에서 provider의 값을 필요로 할 때, 값의 변경 사항을 감지하지 않는 일회성의 값으로 읽어야 하는 경우(ref.read를 사용).
 
-참고로 공식 문서에서는 기능을 구현할 때 ref.read나 ref.listen 대신 ref.watch 사용을 권장합니다.
+참고로 공식 문서에서는 기능을 구현할 때 ref.read 대신 ref.listen이나 ref.watch 사용을 권장합니다.
 
 ref.watch를 사용하면 응용 프로그램이 반응형(reactive)이면서 선언적(declarative)이 되므로, 유지 보수하기 좋아집니다.
 
