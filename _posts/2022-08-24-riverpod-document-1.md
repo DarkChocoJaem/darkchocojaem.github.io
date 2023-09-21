@@ -36,7 +36,7 @@ Riverpod은 기존 Provider 패키지를 개선하여 애플리케이션 로직 
 - 캐시를 사용할때 주의하지 않으면 오래된 데이터로 남을 수 있습니다.
 - 오류와 로딩 상태를 처리해야 합니다.
 
-이 문제들은 규모에 따라 다루기 어려울 수 있으며, 아래와 같은 문제점을 파생시킵니다.
+이 문제들은 규모에 따라 다루기 어려울 수 있으며, 아래와 같은 기능들을 개발할 때 문제점을 파생시킵니다.
 
 - 새로 고침 기능
 - 무한 스크롤링 및 데이터 불러오기
@@ -51,7 +51,7 @@ Riverpod은 기존 Provider 패키지를 개선하여 애플리케이션 로직 
 
 그러나 이러한 문제들을 해결해주기 위한 패키지는 많지 않아 보통은 작업을 수동으로 작성해야 합니다.
 
-이런 점들이 Riverpod 탄생한 이유이며, Riverpod은 Flutter 위젯에서 영감을 받은 새로운 방식으로 비즈니스 로직을 작성함으로써 이러한 문제를 해결하는데 초점을 맞춥니다. 
+Riverpod은 Flutter 위젯에서 영감을 받은 새로운 방식으로 비즈니스 로직을 작성함으로써 이러한 문제를 해결하는데 초점을 맞춥니다. 
 
 다양한 면에서 Riverpod은 위젯과 비교할 수 있지만, 상태와 관련된 복잡한 기능들을 대부분 손쉽게 수행할 수 있도록 도와주므로 개발자는 UI 중심 작업에 집중할 수 있습니다.
 
@@ -86,7 +86,7 @@ final fetchPackagesProvider = FutureProvider.autoDispose
 
 ## Installing the package
 
-수동으로 패키지 의존성을 추가할 경우 다음과 같이 진행하며, 보다 자세한 패키지 종속성에 대한 이해관계는 [pub.dev](https://pub.dev) 를 참조하길 바랍니다.
+수동으로 패키지 의존성을 추가할 경우 다음과 같이 진행하며, 보다 자세한 패키지 종속성에 대한 이해관계는 [pub.dev](https://pub.dev) 의 riverpod 패키지를 참조하길 바랍니다.
 
 ```yaml
 # pubspec.yaml
@@ -163,8 +163,8 @@ void main() {
 class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    //ref.watch에 대한 설명은 다음 장에서 계속됩니다.
     final String value = ref.watch(helloWorldProvider);
-
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Example')),

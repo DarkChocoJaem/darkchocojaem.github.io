@@ -75,8 +75,8 @@ void main() {
 
 각 프로바이더에 대한 간략한 설명은 아래와 같습니다.
 
-- Provider : 어떠한 타입이든 반환할 수 있으며, 서비스 클래스 혹은 필터링된 목록을 상태값으로 유지하기에 적합합니다
-- StateProvider : 어떠한 타입이든 반환할 수 있으며, 필터 조건 혹은 간단한 상태 객체를 상태값으로 유지하기에 적합합니다
+- Provider : 어떤 타입이든 반환할 수 있으며, 서비스 클래스 혹은 필터링된 목록을 상태값으로 유지하기에 적합합니다
+- StateProvider : 어떤 타입이든 반환할 수 있으며, 필터 조건 혹은 간단한 상태 객체를 상태값으로 유지하기에 적합합니다
 - FutureProvider : Future 형태의 타입을 반환할 수 있으며, API 호출 결과를 상태값으로 유지하기에 적합합니다
 - StreamProvider : Stream 형태의 타입을 반환할 수 있으며, API 호출 결과를 스트림하여 상태값으로 유지하기에 적합합니다
 - NotifierProvider : (Async)Notifier의 서브클래스 타입을 반환할 수 있으며, 복잡한 상태 객체를 유지하기에 적합합니다
@@ -168,7 +168,7 @@ class HomeView extends ConsumerWidget {
 
 마찬가지로 StatefulWidget + State를 이용하는 경우엔, ConsumerStatefulWidget + ConsumerState를 통해 대체할 수 있습니다. 
 
-단지 차이점은 상태(State)에 ref 객체의 유무입니다.
+차이점은 단지 상태(State)에 ref 객체의 유무입니다.
 
 이번에는 ref를 build 메서드의 매개변수로 전달하는 대신, ConsumerState 객체의 속성을 통해 사용하는 예시를 살펴보겠습니다.
 
@@ -335,8 +335,6 @@ class HomeView extends ConsumerWidget {
 }
 ```
 
-ref.read는 반응성(reactive)이 없기 때문에 가능한 사용을 자제하고, watch 혹은 listen을 사용하는 것이 더 좋습니다.
-
 때로는 다음과 같이 위젯의 성능을 최적화하기 위해 ref.read를 사용하는 것이 좋아보일 때가 있습니다.
 
 ```dart
@@ -380,7 +378,7 @@ Widget build(BuildContext context, WidgetRef ref) {
 }
 ```
 
-위의 코드 대신 다음과 같이 사용할 수 있습니다
+위의 코드 대신 다음과 같이 사용할 수 있습니다.
 
 ```dart
 final counterProvider = StateProvider((ref) => 0);
@@ -394,7 +392,7 @@ Widget build(BuildContext context, WidgetRef ref) {
 }
 ```
 
-위의 두 코드 모두 카운터가 증가해도 버튼이 rebuild 되지 않습니다
+위의 두 코드 모두 카운터가 증가해도 버튼이 rebuild 되지 않습니다.
 
 반면에, 두 번째 접근법은 카운터가 리셋(reset)되는 경우를 지원합니다.
 
