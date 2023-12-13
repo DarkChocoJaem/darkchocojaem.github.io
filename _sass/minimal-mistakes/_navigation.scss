@@ -89,7 +89,7 @@
 
       &.current,
       &.current.disabled {
-        color: #fff;
+        color: $border-color;
         background: $primary-color;
       }
 

@@ -18,7 +18,7 @@ Mac 버전을 Sonoma 14.0(Beta)로 업그레이드 하면서 Flutter로 앱 개�
 그러다가 ios Simulator의 키보드가 잘 켜지지 않고 렉이 걸리는 현상이 있어서 Xcode15 Beta8로 업데이트 하게 되었습니다.
 
 # Problem
-그런데 ios Simulator에서 앱을 build하니 다음과 같은 오류가 발생했다.
+그런데 ios Simulator에서 앱을 build하니 다음과 같은 오류가 발생했습니다.
 
 ```
 Launching lib/main.dart on iPhone 14 in debug mode...
