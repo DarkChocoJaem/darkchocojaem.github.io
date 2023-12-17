@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e461ff3c-739c-4d73-8d04-4030b554b2ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-21-inflearn-spring-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-21-inflearn-spring-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-22-do-it-flutter-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-22-do-it-flutter-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-22-do-it-flutter-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-22-do-it-flutter-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-22-do-it-flutter-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-22-do-it-flutter-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-22-do-it-flutter-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-22-do-it-flutter-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-22-do-it-flutter-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-22-do-it-flutter-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-24-riverpod-document-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-24-riverpod-document-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-24-riverpod-document-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-24-riverpod-document-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-24-riverpod-document-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-24-riverpod-document-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-08-31-xcode-beta-simulator-error.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-31-xcode-beta-simulator-error.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minimal-mistakes/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minimal-mistakes/_navigation.scss" afterDir="false" />
-    </list>
+    <list default="true" id="e461ff3c-739c-4d73-8d04-4030b554b2ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +71,7 @@
       <updated>1692534590337</updated>
       <workItem from="1692534591209" duration="12593000" />
       <workItem from="1701929028941" duration="1538000" />
-      <workItem from="1702475843477" duration="7169000" />
+      <workItem from="1702475843477" duration="7341000" />
     </task>
     <servers />
   </component>
